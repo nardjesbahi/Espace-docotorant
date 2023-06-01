@@ -1,0 +1,54 @@
+
+
+@media only screen and (min-width: 300px) and (max-width: 1024px){
+    div.navside {
+        width: 0px;
+      }
+      .navside.active{
+        width: 270px;
+    }
+    .toggle{
+       
+        margin-top: 20px;
+        background-color: #CD0A0A;
+    }
+    .toggle.active{
+        margin-left: 280px;
+        margin-top: 20px;
+    }
+    .main{
+        left: 50px;
+    }
+    .main.active{
+        left:70px
+    }
+
+    /*espacee*/
+
+.espace {
+    position: absolute;
+    left: 100px;
+    width: calc(100% - 250px);
+    margin-top: 50px;
+    
+}
+.espace h2 {
+   font-size: calc(0.46rem + .9vw);
+   
+}
+.espace img {
+    width: 15rem;
+    height: 15rem;
+    margin-left: -20px;
+}
+button.btn{
+    display: none;
+}
+/* show on media screen */
+.bottom-content{
+      display: block; 
+  }
+hr{
+    display: block;
+}
+}  
